@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="jquery.mixitup.js"></script>
+    <script src="waypoints.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<section>
+    <div class="slide-1 " data-animate="bounceIn">
+        <p>
+            slide 1
+        </p>
+    </div>
+    <div class="slide-2 " data-animate="bounceIn">
+        <button class="filter" data-filter="all">All Categories</button>
+        <button class="filter" data-filter=".blue">Blue</button>
+        <button class="filter" data-filter=".green">Green</button>
+        <button class="filter" data-filter=".yellow">Yellow</button>
+        <button class="filter" data-filter=".red">Red</button>
+        <button class="sort" data-sort="my-order:asc">Ascending Order</button>
+        <button class="sort" data-sort="my-order:desc">Descending Order</button>
+        <div id="Container">
+            <div class="mix blue" data-my-order="1"> item 1 </div>
+            <div class="mix blue" data-my-order="10"> item 1 </div>
+            <div class="mix blue" data-my-order="7"> item 1 </div>
+            <div class="mix blue red" data-my-order="13"> item 1 </div>
+            <div class="mix yellow" data-my-order="2"> item 2 </div>
+            <div class="mix yellow" data-my-order="5"> item 2 </div>
+            <div class="mix yellow" data-my-order="8"> item 2 </div>
+            <div class="mix yellow" data-my-order="14"> item 2 </div>
+            <div class="mix yellow red" data-my-order="17"> item 2 </div>
+            <div class="mix yellow" data-my-order="3"> item 2 </div>
+            <div class="mix yellow" data-my-order="12"> item 2 </div>
+            <div class="mix green" data-my-order="4"> item 2 </div>
+            <div class="mix green" data-my-order="6"> item 2 </div>
+            <div class="mix green red" data-my-order="9"> item 2 </div>
+            <div class="mix green" data-my-order="11"> item 2 </div>
+            <div class="mix green" data-my-order="18"> item 2 </div>
+            <div class="mix green" data-my-order="16"> item 2 </div>
+            <div class="mix green" data-my-order="15"> item 2 </div>
+        </div>
+    </div>
+    <div class="service-1 ">
+        <div class="d1" data-animate="flipInX">aaaa</div>
+        <div class="d2" data-animate="flipInX" data-animate-delay="0.5">bbbb</div>
+    </div>
+    <div class="service-2" data-animate="bounceInRight">
+        <p>
+            service 2
+        </p>
+    </div>
+    <div class="service-3" data-animate="bounceInLeft">
+        <p>
+            section 3 
+        </p>
+    </div>
+    <div class="work-1" data-animate="bounceInRight">
+        <p>
+            work 1 
+        </p>
+    </div>
+    <div class="work-2" data-animate="bounceInLeft">
+        <p>
+            work 2
+        </p>
+    </div>
+    <div class="about" data-animate="bounceInRight">
+        <p>
+            about
+        </p>
+    </div>
+    
+</section>
+<footer></footer>
+</body>
+</html>

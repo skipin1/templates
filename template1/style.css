@@ -1,0 +1,50 @@
+section {
+    width: 1024px;
+    margin: auto;
+}
+
+div {
+    border: 1px solid grey;
+    margin: 1em;
+    min-height: 500px;
+    opacity: 0;
+}
+
+.d1, .d2 {
+    width: 45%;
+    display: inline-block;
+}
+
+p {
+    font-size: 24px;
+}
+
+.hidden {
+    /*visibility: hidden;*/
+}
+
+
+
+footer {
+    height: 600px;
+}
+
+
+
+
+#Container .mix{
+    display: none;
+    opacity: 1;
+    min-height: 50px !important;
+    width: 20%;
+}
+
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
